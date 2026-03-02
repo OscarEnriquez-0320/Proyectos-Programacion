@@ -16,7 +16,7 @@ public class Cvprincipal implements ActionListener {
         padre.setVisible(true);
         
         padre.getMiInsumos().addActionListener(this);
-        padre.getMiObras().addActionListener(this);   // ← AHORA SÍ EXISTE
+        padre.getMiObras().addActionListener(this);   
         padre.getMiSalida().addActionListener(this);
     }
     
@@ -25,7 +25,7 @@ public class Cvprincipal implements ActionListener {
         if(e.getSource() == padre.getMiInsumos()) {
             abrirVentanaInsumos();
         }
-        else if(e.getSource() == padre.getMiObras()) {  // ← AHORA SÍ EXISTE
+        else if(e.getSource() == padre.getMiObras()) {  
             abrirVentanaObras();
         }
         else if(e.getSource() == padre.getMiSalida()) {
@@ -40,14 +40,14 @@ public class Cvprincipal implements ActionListener {
     }
     
     private void abrirVentanaInsumos() {
-        padre.setEstadoMenus(false);  // ← AHORA SÍ EXISTE
+        padre.setEstadoMenus(false);  
         
         JInternalFrame[] frames = padre.getEscritorio().getAllFrames();
         for(JInternalFrame frame : frames) {
             if(frame instanceof VIPInsumo) {
                 try {
                     frame.setSelected(true);
-                    padre.setEstadoMenus(true);  // ← AHORA SÍ EXISTE
+                    padre.setEstadoMenus(true);  
                     return;
                 } catch(Exception ex) {
                     return;
@@ -56,7 +56,7 @@ public class Cvprincipal implements ActionListener {
         }
         
         VIPInsumo ventana = new VIPInsumo();
-        Cvipinsumo controlador = new Cvipinsumo(ventana, padre);  // ← CONSTRUCTOR AHORA SÍ EXISTE
+        Cvipinsumo controlador = new Cvipinsumo(ventana, padre);  
         
         padre.getEscritorio().add(ventana);
         CentrarVentana.centrar(ventana, padre.getEscritorio());
@@ -64,14 +64,14 @@ public class Cvprincipal implements ActionListener {
     }
     
     private void abrirVentanaObras() {
-        padre.setEstadoMenus(false);  // ← AHORA SÍ EXISTE
+        padre.setEstadoMenus(false);  
         
         JInternalFrame[] frames = padre.getEscritorio().getAllFrames();
         for(JInternalFrame frame : frames) {
             if(frame instanceof VIPObra) {
                 try {
                     frame.setSelected(true);
-                    padre.setEstadoMenus(true);  // ← AHORA SÍ EXISTE
+                    padre.setEstadoMenus(true);  
                     return;
                 } catch(Exception ex) {
                     return;

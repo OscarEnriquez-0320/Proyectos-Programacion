@@ -7,7 +7,7 @@ public class VIPObra extends JInternalFrame {
     private JTextField txtId, txtNombre, txtFechaInicio, txtFechaFin;
     private JList listObras;
     private JScrollPane scrollPane;
-    private JButton btnAgregar, btnEliminar, btnCerrar;  // ← AGREGADO btnCerrar
+    private JButton btnAgregar, btnEliminar, btnCerrar;  
     
     public VIPObra() {
         setTitle("Gestión de Obras");
@@ -72,9 +72,9 @@ public class VIPObra extends JInternalFrame {
         btnEliminar.setBounds(200, 370, 100, 30);
         contentPane.add(btnEliminar);
         
-        btnCerrar = new JButton("Cerrar");              // ← AGREGADO
-        btnCerrar.setBounds(320, 370, 100, 30);         // ← AGREGADO
-        contentPane.add(btnCerrar);                     // ← AGREGADO
+        btnCerrar = new JButton("Cerrar");              
+        btnCerrar.setBounds(320, 370, 100, 30);         
+        contentPane.add(btnCerrar);                     
     }
     
     // Getters
@@ -85,7 +85,7 @@ public class VIPObra extends JInternalFrame {
     public JList getListObras() { return listObras; }
     public JButton getBtnAgregar() { return btnAgregar; }
     public JButton getBtnEliminar() { return btnEliminar; }
-    public JButton getBtnCerrar() { return btnCerrar; } // ← AGREGADO
+    public JButton getBtnCerrar() { return btnCerrar; } 
     
     public void limpiarCampos() {
         txtId.setText("");

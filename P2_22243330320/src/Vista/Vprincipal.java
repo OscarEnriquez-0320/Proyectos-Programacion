@@ -14,11 +14,11 @@ public class Vprincipal extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 1000, 700);
         
-        // Escritorio para ventanas internas
+        
         escritorio = new JDesktopPane();
         setContentPane(escritorio);
         
-        // Barra de menús
+        
         menuBar = new JMenuBar();
         setJMenuBar(menuBar);
         
@@ -38,7 +38,7 @@ public class Vprincipal extends JFrame {
         mSalida.add(miSalida);
     }
     
-    // ========== GETTERS ==========
+    
     
     public JDesktopPane getEscritorio() {
         return escritorio;
@@ -48,7 +48,7 @@ public class Vprincipal extends JFrame {
         return miInsumos;
     }
     
-    public JMenuItem getMiObras() {  // ← ESTE FALTABA
+    public JMenuItem getMiObras() {  
         return miObras;
     }
     
@@ -56,9 +56,9 @@ public class Vprincipal extends JFrame {
         return miSalida;
     }
     
-    // ========== MÉTODO PARA HABILITAR/DESHABILITAR MENÚS ==========
+ 
     
-    public void setEstadoMenus(boolean estado) {  // ← ESTE FALTABA
+    public void setEstadoMenus(boolean estado) {  
         mGestion.setEnabled(estado);
         miInsumos.setEnabled(estado);
         miObras.setEnabled(estado);

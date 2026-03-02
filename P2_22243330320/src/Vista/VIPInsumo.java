@@ -8,7 +8,7 @@ public class VIPInsumo extends JInternalFrame {
     private JComboBox cmbCategoria;
     private JList listInsumos;
     private JScrollPane scrollPane;
-    private JButton btnAgregar, btnEliminar, btnCerrar;  // ← AGREGADO btnCerrar
+    private JButton btnAgregar, btnEliminar, btnCerrar;  
     
     public VIPInsumo() {
         setTitle("Gestión de Insumos");
@@ -65,9 +65,9 @@ public class VIPInsumo extends JInternalFrame {
         btnEliminar.setBounds(200, 360, 100, 30);
         contentPane.add(btnEliminar);
         
-        btnCerrar = new JButton("Cerrar");              // ← AGREGADO
-        btnCerrar.setBounds(320, 360, 100, 30);         // ← AGREGADO
-        contentPane.add(btnCerrar);                     // ← AGREGADO
+        btnCerrar = new JButton("Cerrar");              
+        btnCerrar.setBounds(320, 360, 100, 30);         
+        contentPane.add(btnCerrar);                     
     }
     
     // Getters
@@ -95,7 +95,7 @@ public class VIPInsumo extends JInternalFrame {
         return btnEliminar;
     }
     
-    public JButton getBtnCerrar() {                     // ← AGREGADO
+    public JButton getBtnCerrar() {                    
         return btnCerrar;
     }
     

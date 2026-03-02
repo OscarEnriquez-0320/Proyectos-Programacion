@@ -14,7 +14,7 @@ public class Cvipinsumo implements ActionListener {
     private ListaInsumo modelo;
     private Vprincipal padre;
     
-    // CONSTRUCTOR - DEBE EXISTIR ESTE
+   
     public Cvipinsumo(VIPInsumo vista, Vprincipal padre) {
         this.vista = vista;
         this.padre = padre;
@@ -63,7 +63,7 @@ public class Cvipinsumo implements ActionListener {
         }
         else if(e.getSource() == vista.getBtnCerrar()) {
             vista.dispose();
-            padre.setEstadoMenus(true);  // ← ESTE MÉTODO AHORA SÍ EXISTE
+            padre.setEstadoMenus(true);  
         }
     }
 }
