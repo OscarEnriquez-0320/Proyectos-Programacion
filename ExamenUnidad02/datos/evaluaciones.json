@@ -1,0 +1,595 @@
+[
+  {
+    "id": "INGENIERIA_ECONOMICA_AGUILAR_DIAZ_LILIANA_G",
+    "asignatura": "TERMODINAMICA",
+    "profesor": "CASTAN ROCHA EMILIO",
+    "grupo": "G",
+    "periodo": "",
+    "actividad": "",
+    "fecha": "2026-03-27",
+    "atributos": [
+      {
+        "atributo": "8",
+        "criterio": "8",
+        "indicador": "8",
+        "calificacion": 7,
+        "observaciones": "",
+        "instrumento": "Producto Integrador"
+      },
+      {
+        "atributo": "7",
+        "criterio": "6",
+        "indicador": "5",
+        "calificacion": 10,
+        "observaciones": "",
+        "instrumento": "Producto Integrador"
+      },
+      {
+        "atributo": "9",
+        "criterio": "8",
+        "indicador": "7",
+        "calificacion": 7,
+        "observaciones": "",
+        "instrumento": "Producto Integrador"
+      }
+    ],
+    "calificacionesAlumnos": [],
+    "criterios": [
+      "Análisis",
+      "Diseño",
+      "Implementación",
+      "Documentación"
+    ],
+    "estatus": "completo"
+  },
+  {
+    "id": "TERMODINAMICA_CERVANTES_CHIRINOS_ERICK_EMMANUEL_I",
+    "asignatura": "TERMODINAMICA",
+    "profesor": "CERVANTES CHIRINOS ERICK EMMANUEL",
+    "grupo": "I",
+    "periodo": "",
+    "actividad": "",
+    "fecha": "2026-03-27",
+    "atributos": [
+      {
+        "atributo": "10",
+        "criterio": "10",
+        "indicador": "9",
+        "calificacion": 9,
+        "observaciones": "",
+        "instrumento": "Producto Integrador"
+      }
+    ],
+    "calificacionesAlumnos": [],
+    "criterios": [
+      "Análisis",
+      "Diseño",
+      "Implementación",
+      "Documentación"
+    ],
+    "estatus": "incompleto"
+  },
+  {
+    "asignatura": "PROGRAMACION AVANZADA",
+    "profesor": "ALVAREZ NAVARRO EDUARDO",
+    "grupo": "I",
+    "periodo": "2026-1",
+    "actividad": "Rúbrica de Desempeño",
+    "fecha": "2026-03-27",
+    "atributos": [
+      {
+        "atributo": "10",
+        "criterio": "10",
+        "indicador": "8",
+        "calificacion": 9,
+        "observaciones": "uSo correcto de mvc",
+        "instrumento": "Producto Integrador"
+      },
+      {
+        "atributo": "4",
+        "criterio": "4",
+        "indicador": "6",
+        "calificacion": 0,
+        "observaciones": "no uso mvc",
+        "instrumento": "Producto Integrador"
+      }
+    ],
+    "calificacionesAlumnos": [],
+    "criterios": [
+      "Análisis",
+      "Diseño",
+      "Implementación",
+      "Documentación"
+    ],
+    "estatus": "incompleto"
+  },
+  {
+    "id": "INGENIERIA_ECONOMICA_AGUILAR_DIAZ_LILIANA_I",
+    "asignatura": "INGENIERIA ECONOMICA",
+    "profesor": "AGUILAR DIAZ LILIANA",
+    "grupo": "I",
+    "periodo": "2026-1",
+    "actividad": "Rúbrica de Desempeño",
+    "fecha": "2026-03-27",
+    "atributos": [],
+    "calificacionesAlumnos": [
+      {
+        "alumnoNombre": "ALEJANDRE MAR SERGIO ADRIAN",
+        "alumnoMatricula": "2223330133",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "CLEMENTE PECINA JOSE EDUARDO",
+        "alumnoMatricula": "2193217022",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "CONTRERAS MORALES RICARDO AXEL",
+        "alumnoMatricula": "2223330147",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "DIAZ VILLARREAL CELINE MICHELLE",
+        "alumnoMatricula": "2223339025",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "GOMEZ RUBIO IRAM SAID",
+        "alumnoMatricula": "2223330159",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "GONZALEZ DAVILA KEVIN GABRIEL",
+        "alumnoMatricula": "2183275063",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "HERNANDEZ RAMIREZ JAIME DANIEL",
+        "alumnoMatricula": "2223330164",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "HUERTA HERNANDEZ DILAN DARIEL",
+        "alumnoMatricula": "2213332171",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "IBARRA LOREDO JUAN JESUS",
+        "alumnoMatricula": "2223330167",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "IZAGUIRRE CORTES EMANUEL",
+        "alumnoMatricula": "2223330168",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "MARTINEZ ACUÑA BRANDON",
+        "alumnoMatricula": "2223330174",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "MENDEZ GUERRERO PABLO DANIEL",
+        "alumnoMatricula": "2223330178",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "MORALES URRUTIA JAVIER ANTONIO",
+        "alumnoMatricula": "2193273017",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "MORENO CASTILLO ZAHARAHIM JOHANATAN",
+        "alumnoMatricula": "2221330057",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "OLIVARES SIFUENTES DIEGO ALEJANDRO",
+        "alumnoMatricula": "2221330008",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "REYES AVALOS JOSHUA EMMANUEL",
+        "alumnoMatricula": "2223330185",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "SANCHEZ MORALES JESUS",
+        "alumnoMatricula": "2223339020",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "VICENTE BAUTISTA ROBERTO NICOLAS",
+        "alumnoMatricula": "2223330204",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      }
+    ],
+    "criterios": [
+      "Análisis",
+      "Diseño",
+      "Implementación",
+      "Documentación"
+    ],
+    "estatus": "pendiente"
+  },
+  {
+    "id": "PROGRAMACION_AVANZADA_ALVAREZ_NAVARRO_EDUARDO_G",
+    "asignatura": "PROGRAMACION AVANZADA",
+    "profesor": "ALVAREZ NAVARRO EDUARDO",
+    "grupo": "G",
+    "periodo": "2026-1",
+    "actividad": "Rúbrica de Desempeño",
+    "fecha": "2026-03-27",
+    "atributos": [],
+    "calificacionesAlumnos": [
+      {
+        "alumnoNombre": "ALEJO ROCHER ULISES ALFREDO",
+        "alumnoMatricula": "2173223044",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "ARIAS CASTILLO RAUL ARAM",
+        "alumnoMatricula": "2233336112",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "ATANASIO GOMEZ EDSON FELIPE",
+        "alumnoMatricula": "2233336113",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "BAEZ LOPEZ JOSE GUADALUPE",
+        "alumnoMatricula": "2213350200",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "BARRON GONZALEZ JOSE ANGEL",
+        "alumnoMatricula": "2231390084",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "BELTRAN MARTINEZ JESUS ANTONIO",
+        "alumnoMatricula": "2233336114",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "CABRERA MARTINEZ JESUS ALFONSO",
+        "alumnoMatricula": "2233336118",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "DEL ANGEL CERVANTES MIGUEL ANGEL",
+        "alumnoMatricula": "2183330119",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "DEL ANGEL DEL ANGEL EDGAR",
+        "alumnoMatricula": "2233336126",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "GAMEZ RAMIREZ JORGE LUIS",
+        "alumnoMatricula": "2233336133",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "GARCIA RODRIGUEZ ABIGAIL",
+        "alumnoMatricula": "2233336135",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "GOMEZ GOMEZ JUAN DIEGO",
+        "alumnoMatricula": "2173287040",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "GOMEZ JUAREZ ISAIAS",
+        "alumnoMatricula": "2233336138",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "HERNANDEZ CRUZ ANGEL ANTONIO",
+        "alumnoMatricula": "2191267007",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "HIPOLITO PEREZ SILVESTRE ABRAHAM",
+        "alumnoMatricula": "2233336148",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "MENDEZ PADRON GUSTAVO EMANUEL",
+        "alumnoMatricula": "2233336160",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "NAJERA PONCE BRENDA MARIAN",
+        "alumnoMatricula": "2203245140",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "OZUNA DOMINGO ELOHIM ALEJANDRO",
+        "alumnoMatricula": "2233336168",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "PEREA TORRES ARIEL NEFTALI",
+        "alumnoMatricula": "2223390074",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "RAMIREZ GARCIA DANIEL",
+        "alumnoMatricula": "2233336171",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "ROCHA HERNANDEZ EDGAR DE JESUS",
+        "alumnoMatricula": "2233336176",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "VAZQUEZ VALDEZ JESUS BERNARDO",
+        "alumnoMatricula": "2233336187",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      },
+      {
+        "alumnoNombre": "ZUÑIGA DEL ANGEL JESUS IGNACIO",
+        "alumnoMatricula": "2233336188",
+        "calificaciones": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "promedio": 0.0
+      }
+    ],
+    "criterios": [
+      "Análisis",
+      "Diseño",
+      "Implementación",
+      "Documentación"
+    ],
+    "estatus": "pendiente"
+  }
+]
