@@ -14,30 +14,29 @@ public class ControladorProveedor {
 	    
 	    public ArrayList<Proveedor> listarTodos() {
 	        ArrayList<Proveedor> lista = new ArrayList<Proveedor>();
-	        String sql = "SELECT id, nombre_empresa, contacto_nombre, telefono, categoria,  FROM Proveedor ORDER BY nombre_empresa";
+	        String sql = "SELECT id, nombre_empresa, contacto_nombre, telefono, categoria, ruta_imagen FROM Proveedor ORDER BY nombre_empresa";
 	        
 	        try (Connection conn = ConexionBD.obtenerConexion();
-	             PreparedStatement stmt = conn.prepareStatement(sql);
-	             ResultSet rs = stmt.executeQuery()) {
-	            
-	            while (rs.next()) {
-	                Proveedor p = new Proveedor();
-	                p.setId(rs.getInt("id"));
-	                p.setNombreEmpresa(rs.getString("nombre_empresa"));
-	                p.setContactoNombre(rs.getString("contacto_nombre"));
-	                p.setTelefono(rs.getString("telefono"));
-	                p.setCategoria(rs.getString("categoria"));
-	                
-	                lista.add(p);
-	            }
-	            
-	        } catch (SQLException e) {
-	            e.printStackTrace();
-	        }
-	        
-	        return lista;
-	    }
-	    
+	                PreparedStatement stmt = conn.prepareStatement(sql);
+	                ResultSet rs = stmt.executeQuery()) {
+	               
+	               while (rs.next()) {
+	                   Proveedor p = new Proveedor();
+	                   p.setId(rs.getInt("id"));
+	                   p.setNombreEmpresa(rs.getString("nombre_empresa"));
+	                   p.setContactoNombre(rs.getString("contacto_nombre"));
+	                   p.setTelefono(rs.getString("telefono"));
+	                   p.setCategoria(rs.getString("categoria"));
+	                  
+	                   lista.add(p);
+	               }
+	               
+	           } catch (SQLException e) {
+	               e.printStackTrace();
+	           }
+	           
+	           return lista;
+	       }	    
 	    public ArrayList<Proveedor> buscar(String texto) {
 	        ArrayList<Proveedor> lista = new ArrayList<Proveedor>();
 	        String sql = "SELECT id, nombre_empresa, contacto_nombre, telefono, categoria,  FROM Proveedor WHERE nombre_empresa LIKE ? OR contacto_nombre LIKE ? OR categoria LIKE ? ORDER BY nombre_empresa";
